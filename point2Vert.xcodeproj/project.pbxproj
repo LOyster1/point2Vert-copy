@@ -7,10 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3BB919201DAF01A3009A60FB /* InitShader.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3BB9191E1DAF01A3009A60FB /* InitShader.cpp */; };
+		3BB919211DAF01A3009A60FB /* scgMPVAOs.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3BB9191F1DAF01A3009A60FB /* scgMPVAOs.cpp */; };
 		3BF1A5171DA833B600C1EE5E /* OpenGL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3BF1A5161DA833B600C1EE5E /* OpenGL.framework */; };
 		3BF1A5191DA833BB00C1EE5E /* GLUT.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3BF1A5181DA833BB00C1EE5E /* GLUT.framework */; };
-		3BF1A51C1DA833D000C1EE5E /* InitShader.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3BF1A51A1DA833D000C1EE5E /* InitShader.cpp */; };
-		3BF1A51D1DA833D000C1EE5E /* scgMPVAOs.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3BF1A51B1DA833D000C1EE5E /* scgMPVAOs.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -26,11 +26,11 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		3BB9191E1DAF01A3009A60FB /* InitShader.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = InitShader.cpp; sourceTree = SOURCE_ROOT; };
+		3BB9191F1DAF01A3009A60FB /* scgMPVAOs.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = scgMPVAOs.cpp; sourceTree = SOURCE_ROOT; };
 		3BF1A50C1DA833AC00C1EE5E /* point2Vert */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = point2Vert; sourceTree = BUILT_PRODUCTS_DIR; };
 		3BF1A5161DA833B600C1EE5E /* OpenGL.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGL.framework; path = System/Library/Frameworks/OpenGL.framework; sourceTree = SDKROOT; };
 		3BF1A5181DA833BB00C1EE5E /* GLUT.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GLUT.framework; path = System/Library/Frameworks/GLUT.framework; sourceTree = SDKROOT; };
-		3BF1A51A1DA833D000C1EE5E /* InitShader.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = InitShader.cpp; path = ../../../pointer2vertexMacOS/InitShader.cpp; sourceTree = "<group>"; };
-		3BF1A51B1DA833D000C1EE5E /* scgMPVAOs.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = scgMPVAOs.cpp; path = ../../../pointer2vertexMacOS/scgMPVAOs.cpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -67,8 +67,8 @@
 		3BF1A50E1DA833AC00C1EE5E /* point2Vert */ = {
 			isa = PBXGroup;
 			children = (
-				3BF1A51A1DA833D000C1EE5E /* InitShader.cpp */,
-				3BF1A51B1DA833D000C1EE5E /* scgMPVAOs.cpp */,
+				3BB9191E1DAF01A3009A60FB /* InitShader.cpp */,
+				3BB9191F1DAF01A3009A60FB /* scgMPVAOs.cpp */,
 			);
 			path = point2Vert;
 			sourceTree = "<group>";
@@ -129,8 +129,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3BF1A51C1DA833D000C1EE5E /* InitShader.cpp in Sources */,
-				3BF1A51D1DA833D000C1EE5E /* scgMPVAOs.cpp in Sources */,
+				3BB919201DAF01A3009A60FB /* InitShader.cpp in Sources */,
+				3BB919211DAF01A3009A60FB /* scgMPVAOs.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -251,6 +251,7 @@
 				3BF1A5151DA833AC00C1EE5E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
